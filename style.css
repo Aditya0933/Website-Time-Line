@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    position: relative;
+}
+
+/* Cancel Icon of  Main Container */
+.container-cancel-icon{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+/* Container Which Contain Grid Boxes */
+.Container{
+    padding: 8% 5%;
+}
+
+.Container h1{
+    text-align: center;
+}
+
+/* Grid Boxes */
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 8% 5%;
+}
+.grid-padding{
+    padding: 8%;
+}
+.grid-row-gap{
+    display: grid;
+    grid-gap: 20px;
+}
+.grid-row-gap p{
+    margin-top: 8px;
+}
+
+/* Border for Grid Boxes */
+.grid-border-left{
+    border-left: 5px solid rgb(0, 0, 0);
+}
+
+/* Circle in Grid Boxes */
+.grid-2-dot-upper-circle{
+    height: 45px;
+    width: 45px;
+    border: 2px solid black;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: transparent;
+    position: absolute;
+    top: 50%;
+    left: -25px;
+}
+
+.grid-2-dot-lower-circle{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.grid-position-relative{
+    position: relative;
+}
